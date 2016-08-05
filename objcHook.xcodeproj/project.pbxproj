@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6402761D54242200652BAC /* objcHook.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6402751D54242200652BAC /* objcHook.h */; };
+		FE6402761D54242200652BAC /* objcHook.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6402751D54242200652BAC /* objcHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE64027D1D54242200652BAC /* objcHook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6402721D54242200652BAC /* objcHook.framework */; };
 		FE6402821D54242200652BAC /* objcHookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402811D54242200652BAC /* objcHookTests.m */; };
+		FE64028E1D54244300652BAC /* objcHook.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE64028C1D54244300652BAC /* objcHook.podspec */; };
+		FE64029A1D54247000652BAC /* NSObject+VDHook.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6402901D54247000652BAC /* NSObject+VDHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE64029B1D54247000652BAC /* NSObject+VDHook.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402911D54247000652BAC /* NSObject+VDHook.m */; };
+		FE64029C1D54247000652BAC /* VDHook.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6402921D54247000652BAC /* VDHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE64029D1D54247000652BAC /* VDHook.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402931D54247000652BAC /* VDHook.m */; };
+		FE64029E1D54247000652BAC /* VDHookElement.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6402941D54247000652BAC /* VDHookElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE64029F1D54247000652BAC /* VDHookElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402951D54247000652BAC /* VDHookElement.m */; };
+		FE6402A01D54247000652BAC /* VDHookInvocationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6402961D54247000652BAC /* VDHookInvocationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6402A11D54247000652BAC /* VDHookInvocationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402971D54247000652BAC /* VDHookInvocationInfo.m */; };
+		FE6402A21D54247000652BAC /* VDHookRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6402981D54247000652BAC /* VDHookRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6402A31D54247000652BAC /* VDHookRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402991D54247000652BAC /* VDHookRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,18 @@
 		FE64027C1D54242200652BAC /* objcHookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcHookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6402811D54242200652BAC /* objcHookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcHookTests.m; sourceTree = "<group>"; };
 		FE6402831D54242200652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE64028C1D54244300652BAC /* objcHook.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcHook.podspec; sourceTree = "<group>"; };
+		FE64028D1D54244300652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE6402901D54247000652BAC /* NSObject+VDHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+VDHook.h"; sourceTree = "<group>"; };
+		FE6402911D54247000652BAC /* NSObject+VDHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VDHook.m"; sourceTree = "<group>"; };
+		FE6402921D54247000652BAC /* VDHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDHook.h; sourceTree = "<group>"; };
+		FE6402931D54247000652BAC /* VDHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDHook.m; sourceTree = "<group>"; };
+		FE6402941D54247000652BAC /* VDHookElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDHookElement.h; sourceTree = "<group>"; };
+		FE6402951D54247000652BAC /* VDHookElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDHookElement.m; sourceTree = "<group>"; };
+		FE6402961D54247000652BAC /* VDHookInvocationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDHookInvocationInfo.h; sourceTree = "<group>"; };
+		FE6402971D54247000652BAC /* VDHookInvocationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDHookInvocationInfo.m; sourceTree = "<group>"; };
+		FE6402981D54247000652BAC /* VDHookRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDHookRecorder.h; sourceTree = "<group>"; };
+		FE6402991D54247000652BAC /* VDHookRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDHookRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,8 @@
 				FE6402741D54242200652BAC /* objcHook */,
 				FE6402801D54242200652BAC /* objcHookTests */,
 				FE6402731D54242200652BAC /* Products */,
+				FE64028C1D54244300652BAC /* objcHook.podspec */,
+				FE64028D1D54244300652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +96,16 @@
 		FE6402741D54242200652BAC /* objcHook */ = {
 			isa = PBXGroup;
 			children = (
+				FE6402901D54247000652BAC /* NSObject+VDHook.h */,
+				FE6402911D54247000652BAC /* NSObject+VDHook.m */,
+				FE6402921D54247000652BAC /* VDHook.h */,
+				FE6402931D54247000652BAC /* VDHook.m */,
+				FE6402941D54247000652BAC /* VDHookElement.h */,
+				FE6402951D54247000652BAC /* VDHookElement.m */,
+				FE6402961D54247000652BAC /* VDHookInvocationInfo.h */,
+				FE6402971D54247000652BAC /* VDHookInvocationInfo.m */,
+				FE6402981D54247000652BAC /* VDHookRecorder.h */,
+				FE6402991D54247000652BAC /* VDHookRecorder.m */,
 				FE6402751D54242200652BAC /* objcHook.h */,
 				FE6402771D54242200652BAC /* Info.plist */,
 			);
@@ -94,6 +129,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE6402761D54242200652BAC /* objcHook.h in Headers */,
+				FE6402A01D54247000652BAC /* VDHookInvocationInfo.h in Headers */,
+				FE64029A1D54247000652BAC /* NSObject+VDHook.h in Headers */,
+				FE6402A21D54247000652BAC /* VDHookRecorder.h in Headers */,
+				FE64029E1D54247000652BAC /* VDHookElement.h in Headers */,
+				FE64029C1D54247000652BAC /* VDHook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64028E1D54244300652BAC /* objcHook.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64029D1D54247000652BAC /* VDHook.m in Sources */,
+				FE6402A11D54247000652BAC /* VDHookInvocationInfo.m in Sources */,
+				FE64029B1D54247000652BAC /* NSObject+VDHook.m in Sources */,
+				FE6402A31D54247000652BAC /* VDHookRecorder.m in Sources */,
+				FE64029F1D54247000652BAC /* VDHookElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

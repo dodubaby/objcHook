@@ -16,4 +16,8 @@ FOUNDATION_EXPORT const unsigned char objcHookVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcHook/PublicHeader.h>
 
-
+#import <objcHook/VDHookInvocationInfo.h>
+#import <objcHook/VDHookElement.h>
+#import <objcHook/VDHookRecorder.h>
+#import <objcHook/VDHook.h>
+#import <objcHook/NSObject+VDHook.h>
