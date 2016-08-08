@@ -30,9 +30,9 @@
 - (void)invokeAfterElements:(VDHookInvocationInfo *)invocationInfo;
 
 #pragma mark Properties
-@property (nonatomic, copy) NSMutableArray *beforeElements;
-@property (nonatomic, copy) NSMutableArray *insteadElements;
-@property (nonatomic, copy) NSMutableArray *afterElements;
+@property (nonatomic, strong) NSMutableArray *beforeElements;
+@property (nonatomic, strong) NSMutableArray *insteadElements;
+@property (nonatomic, strong) NSMutableArray *afterElements;
 
 #pragma mark Private Method
 - (void)internalRemoveDisposedElements:(NSMutableArray *)elements;
