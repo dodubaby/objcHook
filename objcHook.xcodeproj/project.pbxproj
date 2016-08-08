@@ -21,6 +21,7 @@
 		FE6402A11D54247000652BAC /* VDHookInvocationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402971D54247000652BAC /* VDHookInvocationInfo.m */; };
 		FE6402A21D54247000652BAC /* VDHookRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6402981D54247000652BAC /* VDHookRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6402A31D54247000652BAC /* VDHookRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6402991D54247000652BAC /* VDHookRecorder.m */; };
+		FE640A9E1D582BF300652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE640A9D1D582BF300652BAC /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		FE6402971D54247000652BAC /* VDHookInvocationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDHookInvocationInfo.m; sourceTree = "<group>"; };
 		FE6402981D54247000652BAC /* VDHookRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDHookRecorder.h; sourceTree = "<group>"; };
 		FE6402991D54247000652BAC /* VDHookRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDHookRecorder.m; sourceTree = "<group>"; };
+		FE640A9D1D582BF300652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				FE6402741D54242200652BAC /* objcHook */,
 				FE6402801D54242200652BAC /* objcHookTests */,
 				FE6402731D54242200652BAC /* Products */,
+				FE640A9D1D582BF300652BAC /* Cartfile */,
 				FE64028C1D54244300652BAC /* objcHook.podspec */,
 				FE64028D1D54244300652BAC /* README.md */,
 			);
@@ -218,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE640A9E1D582BF300652BAC /* Cartfile in Resources */,
 				FE64028E1D54244300652BAC /* objcHook.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +428,7 @@
 				FE6402881D54242200652BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE6402891D54242200652BAC /* Build configuration list for PBXNativeTarget "objcHookTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				FE64028B1D54242200652BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
